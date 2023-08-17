@@ -1,0 +1,83 @@
+body {
+	font-family:'Playfair Display', serif;
+	color: #002305;
+	background-image: url('background.png');
+	margin: 0;
+  padding: 0;
+}
+
+.header h1 {
+	font-weight:700;
+	font-size: 128px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: underline;
+	text-shadow: 4px 4px 0px #0002;
+	text-decoration-thickness: 0.06em;
+}
+
+.header h1 img {
+	height: 100px;
+}
+
+.subheader {
+	margin-bottom: 70px;
+}
+
+.subheader h2 {
+	margin-top: 0px;
+	font-weight:400;
+	font-style:italic;
+	letter-spacing: 0.04em;
+	text-align: right;
+	margin-right: 10vw;
+	text-decoration: underline;
+}
+
+.subheader h2 .star {
+	text-decoration: none;
+	font-style:normal;
+}
+
+.subheader .social {
+	position: absolute;
+	left: 20vw;
+	margin-top: 5px;
+}
+
+.content {
+	background-color: #e0ece1;
+}
+
+.who-we-are .text-container {
+	width:45vw;
+	display:inline-block;
+	padding: 5vw;
+	box-sizing: border-box;
+}
+
+.who-we-are .image-container {
+	width:50vw;
+	display:inline-block;
+}
+
+.image-container img {
+	margin-left:10%;
+	width:80%;
+	border: 25px solid #efefef;
+	box-shadow: 4px 4px 10px #0002;
+}
+
+.how-to-join .text-container {
+	width:45vw;
+	display:inline-block;
+	padding: 5vw;
+	box-sizing: border-box;
+}
+
+.how-to-join .image-container {
+	width:50vw;
+	display:inline-block;
+}
