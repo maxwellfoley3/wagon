@@ -42,6 +42,7 @@ body {
 }
 
 .subheader .social {
+	display: none;
 	position: absolute;
 	left: 20vw;
 	margin-top: 5px;
@@ -51,14 +52,14 @@ body {
 	background-color: #e0ece1;
 }
 
-.who-we-are .text-container {
+.copy-1 .text-container {
 	width:45vw;
 	display:inline-block;
 	padding: 5vw;
 	box-sizing: border-box;
 }
 
-.who-we-are .image-container {
+.copy-1 .image-container {
 	width:50vw;
 	display:inline-block;
 }
@@ -70,14 +71,91 @@ body {
 	box-shadow: 4px 4px 10px #0002;
 }
 
-.how-to-join .text-container {
+.copy-2 .text-container {
 	width:45vw;
 	display:inline-block;
 	padding: 5vw;
 	box-sizing: border-box;
 }
 
-.how-to-join .image-container {
+.copy-2 .image-container {
 	width:50vw;
 	display:inline-block;
+}
+
+.copy-3 .text-container {
+	width:45vw;
+	display:inline-block;
+	padding: 5vw;
+	box-sizing: border-box;
+}
+
+.copy-3 .image-container {
+	width:50vw;
+	display:inline-block;
+}
+
+.copy-4 .text-container {
+	width:45vw;
+	display:inline-block;
+	padding: 5vw;
+	box-sizing: border-box;
+}
+
+.copy-4 .image-container {
+	width:50vw;
+	display:inline-block;
+}
+
+.copy-5 .text-container {
+	width:45vw;
+	display:inline-block;
+	padding: 5vw;
+	box-sizing: border-box;
+}
+
+.copy-5 .image-container {
+	width:50vw;
+	display:inline-block;
+}
+
+.footer {
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 15px;
+}
+
+.dates {
+	font-weight: bold;
+	text-align: center;
+}
+
+.discord-button {
+	display: inline-block;
+	border: 1px solid #002305;
+	border-radius: 3px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:18px;
+	box-shadow: 0px 0px 5px #0005;
+}
+
+.discord-button a {
+	text-decoration: none;
+	color: #002305;
+}
+
+.discord-button:hover {
+	background-color: #002305;
+	color:#e0ece1;
+
+}
+
+.align-center {
+	text-align: center;
 }
