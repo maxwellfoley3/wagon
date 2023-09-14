@@ -49,18 +49,26 @@ body {
 }
 
 .content {
-	background-color: #e0ece1;
+	background: linear-gradient(180deg, #e0ece1 0%, #e0ece1 5%);
+	text-align: center;
+	box-shadow: 0px 0px 15px #0005;
 }
 
-.copy-1 .text-container {
-	width:45vw;
+.content-inner {
+	display: inline-block;
+	max-width: 1200px;
+	text-align: left;
+}
+
+.text-container {
+	width:45%;
 	display:inline-block;
-	padding: 5vw;
+	padding: 5%;
 	box-sizing: border-box;
 }
 
-.copy-1 .image-container {
-	width:50vw;
+.image-container {
+	width:45%;
 	display:inline-block;
 }
 
@@ -71,55 +79,59 @@ body {
 	box-shadow: 4px 4px 10px #0002;
 }
 
-.copy-2 .text-container {
-	width:45vw;
-	display:inline-block;
-	padding: 5vw;
-	box-sizing: border-box;
+
+@media (max-width: 1000px) {
+	.header img {
+		display: none;
+	}
+
+	.text-container {
+		width: 100%;
+	}
+	.image-container {
+		width: 100%;
+		margin-left: 6%;
+	}
+
+	.image-container img {
+		margin-left: 0%;
+	}
+
+	.copy-2 .image-container {
+		display: none;
+	}
+
+	.copy-5 .image-container {
+		display: none;
+	}
+
+	.header h1 {
+		margin-left: 5%;
+		font-size: 96px;
+	}
+
+	body {
+		background-position: top -40px left 0px;
+	}
 }
 
-.copy-2 .image-container {
-	width:50vw;
-	display:inline-block;
-}
+@media (max-width: 600px) {
+	.header h1 {
+		margin-left: 5%;
+		font-size: 72px;
+	}
 
-.copy-3 .text-container {
-	width:45vw;
-	display:inline-block;
-	padding: 5vw;
-	box-sizing: border-box;
-}
+	.subheader h2 {
+		font-size: 18px;
+	}
+	body {
+		background-position: top -70px left 0px;
+	}
 
-.copy-3 .image-container {
-	width:50vw;
-	display:inline-block;
-}
-
-.copy-4 .text-container {
-	width:45vw;
-	display:inline-block;
-	padding: 5vw;
-	box-sizing: border-box;
-}
-
-.copy-4 .image-container {
-	width:50vw;
-	display:inline-block;
-}
-
-.copy-5 .text-container {
-	width:45vw;
-	display:inline-block;
-	padding: 5vw;
-	box-sizing: border-box;
-}
-
-.copy-5 .image-container {
-	width:50vw;
-	display:inline-block;
 }
 
 .footer {
+	margin-top: 50px;
 	text-align: center;
 	font-size: 12px;
 	padding-bottom: 15px;
@@ -130,7 +142,7 @@ body {
 	text-align: center;
 }
 
-.discord-button {
+.button {
 	display: inline-block;
 	border: 1px solid #002305;
 	border-radius: 3px;
@@ -143,14 +155,16 @@ body {
 	margin-right: auto;
 	font-size:18px;
 	box-shadow: 0px 0px 5px #0005;
+	color: #002305;
+
 }
 
-.discord-button a {
+.button a {
 	text-decoration: none;
 	color: #002305;
 }
 
-.discord-button:hover {
+.button:hover {
 	background-color: #002305;
 	color:#e0ece1;
 
